@@ -4,7 +4,7 @@
     "description": "Parser 3 syntax highlight",
     "publisher": "unhandled-exception",
     "license" : "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/unhandled-exception/code-p3.git"
