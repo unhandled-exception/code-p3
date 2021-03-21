@@ -18,6 +18,10 @@ Parser 3 is a convenient and secure object-oriented language for web development
 
 ## Release Notes
 
+### 1.0.3
+
+Correctly highlighting comments in the class headers
+
 ### 1.0.1
 
 Update readme

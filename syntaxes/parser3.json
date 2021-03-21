@@ -21,6 +21,9 @@
             "end": "(?=^@)",
             "patterns": [
                 {
+                    "include": "#line-comment"
+                },
+                {
                     "match": ".+",
                     "name": "entity.name.type.class.parser3"
                 }
@@ -49,8 +52,7 @@
             "name": "comment.block.parser3"
         },
         {
-            "match": "^#.*",
-            "name": "comment.line.parser3"
+            "include": "#line-comment"
         },
         {
             "match": "(\\^)(\\^|\\$|;|@|\\(|\\)|\\{|\\}|\\[|\\]|:|\"|'|#)",
@@ -292,6 +294,10 @@
         }
     ],
     "repository": {
+        "line-comment": {
+            "match": "^#.*",
+            "name": "comment.line.parser3"
+        },
         "separator": {
             "match": ";",
             "name": "punctuation.separator.parser3"
