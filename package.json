@@ -2,10 +2,10 @@
     "name": "parser3-code",
     "displayName": "Parser 3",
     "description": "Parser 3 syntax highlight",
-	"icon": "images/logo.gif",
+    "icon": "images/logo.gif",
     "publisher": "unhandled-exception",
-    "license" : "MIT",
-    "version": "1.0.3",
+    "license": "MIT",
+    "version": "1.0.4",
     "repository": {
         "type": "git",
         "url": "https://github.com/unhandled-exception/code-p3.git"
@@ -17,16 +17,20 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "parser3",
-            "aliases": ["Parser3"],
-            "extensions": [
-                ".p",
-                ".pt",
-                ".html"
-            ],
-            "configuration": "./language-configuration.json"
-        }],
+        "languages": [
+            {
+                "id": "parser3",
+                "aliases": [
+                    "Parser3"
+                ],
+                "extensions": [
+                    ".p",
+                    ".pt",
+                    ".html"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
         "grammars": [
             {
                 "language": "parser3",

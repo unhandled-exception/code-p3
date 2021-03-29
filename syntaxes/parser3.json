@@ -288,9 +288,6 @@
                 }
             ],
             "name": "meta.code.parser3"
-        },
-        {
-            "include": "source.sql"
         }
     ],
     "repository": {
